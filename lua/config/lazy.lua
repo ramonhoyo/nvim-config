@@ -50,3 +50,9 @@ require("lazy").setup({
     },
   },
 })
+
+vim.filetype.add({
+  extension = {
+    templ = "templ",
+  },
+})
